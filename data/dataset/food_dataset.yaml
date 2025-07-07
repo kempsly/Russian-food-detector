@@ -1,0 +1,20 @@
+path: /mnt/batch/tasks/shared/LS_root/mounts/clusters/gpu-vm-snc12sv3/code/Users/KempslyS/AiMlProjects/product-type-classification-project/ai_training/yolo-food-detection/yolo-food-detection/dataset
+
+# Relative paths to the training, validation, and test sets
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 8  
+
+# Class names
+names:
+  0: daikon_salad
+  1: greek_salad
+  2: shashlik
+  3: wrap
+  4: green_tea
+  5: Borscht
+  6: cheese_soup
+  7: fondue
